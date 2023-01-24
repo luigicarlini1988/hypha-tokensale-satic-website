@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luigicarlini1988/hypha-static.git"
+    "url": "git+https://github.com/hypha-dao/hypha-tokensale-static-website.git"
   },
   "author": "alex-is",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luigicarlini1988/hypha-static/issues"
+    "url": "https://github.com/hypha-dao/hypha-tokensale-static-website/issues"
   },
-  "homepage": "https://github.com/luigicarlini1988/hypha-static#readme",
+  "homepage": "https://github.com/hypha-dao/hypha-tokensale-static-website#readme",
   "dependencies": {
     "hypha-token-sales-widget": "file:../v3/hypha-token-sales-widget"
   }
