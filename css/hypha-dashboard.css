@@ -1,0 +1,30 @@
+/* dashbaord style will be here*/
+
+:root {
+
+/* Colors: */
+--dark-blu: #1B2B5E;
+--medium-blu: #293E83;
+--light-blu: #3550AF;
+--white-blu: #F4F8FB;
+--yellow: #FFBC00;
+--light-sand: #F7F7F2;
+--grey: #E5E5E5;
+--titles: 'DM Serif Display', serif;
+--bodys: 'Raleway', sans-serif;
+--box-shadow: 0px 0px 20px rgba(186,182,164,0.3);
+--radial-blu-gradient: radial-gradient( #253979 , #0D1A45);
+}
+
+
+
+.grafana-app {
+  background-image:url('https://hypha.earth/img/3-steps-back.jpg')!important;
+}
+
+.grafana-app h1, .grafana-app h2, .grafana-app h3, .grafana-app h4 {
+    font-family: var(--bodys)!important;
+    color: var(--yellow);
+    text-transform: lowercase;
+    font-size: 12px!important;
+}

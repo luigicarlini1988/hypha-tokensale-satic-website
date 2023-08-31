@@ -1,13 +1,9 @@
-/* test upload*/
-
 #buyhypha-wizard {
   width:100%;
   max-width:560px;
   margin-top:30px;
 
 }
-
-
 .multistep .foglio {
   display:flex;
   justify-content: center;
