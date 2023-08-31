@@ -7,8 +7,7 @@
 
     <!-- Meta Tags Generic-->
     <title>Hypha | Token Sale</title>
-    <meta name="description"
-        content="Building decentralised apps to empower communities with the tools of decentralised and autonomous governance.">
+    <meta name="description" content="Hypha helps individuals, projects, and organizations achieve more together with our complete DAO tool.">
     <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
@@ -26,58 +25,18 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/general-style.css">
     <link rel="stylesheet" href="css/token-sale.css">
-    <link rel="stylesheet" href="css/loader-style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/burger-menu.css">
 
-    <!-- Javascript / jQuery libraries -->
-    <script src="js/jquery-3-10-1-min.js" type="text/javascript"></script>
 
-    <!--luigi's global custom animations-->
-    <script src="js/general-animations.js" type="text/javascript"></script>
 
-    <!-- Matomo -->
-    <script>
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u = "https://track.hypha.earth/";
-        _paq.push(['setTrackerUrl', u + 'matomo.php']);
-        _paq.push(['setSiteId', '9']);
-        var d = document,
-            g = d.createElement('script'),
-            s = d.getElementsByTagName('script')[0];
-        g.async = true;
-        g.src = u + 'matomo.js';
-        s.parentNode.insertBefore(g, s);
-    })();
-    </script>
-    <!-- End Matomo Code -->
+
+
+
+
 
 
 <body class="buy-seeds">
 
-    <!--page loader very basic, waits the load of the header background image and disappears-->
-    <div class="obscurer">
-
-        <div class="vertical-centered-box">
-            <div class="contentt">
-                <div class="loader-circle"></div>
-                <div class="loader-line-mask">
-                    <div class="loader-line"></div>
-                </div>
-                <img src="img/round-logo.svg" height="70" width="70" />
-            </div>
-        </div>
-
-    </div>
-
-    <?php
-      include 'incl/hypha-menu.html';
-
-   ?>
 
     <main>
         <section class="multistep">
@@ -92,25 +51,9 @@
             </div>
         </section>
 
-        <!--<section class="token-slides-wrapper">
-        <div class="foglio">
-           <div id="buyhypha-slides">
-            <a href="https://www.youtube.com/watch?v=94hVdGCnuK0" target="_blank" class="slide"><img
-                src="img/slides/slide-1.png" alt="Hypha Token Sale slide" /></a>
-            <img src="img/slides/slide-2.png" alt="Hypha Token Sale slide" class="slide" />
-            <img src="img/slides/slide-3.png" alt="Hypha Token Sale slide" class="slide" />
-            <img src="img/slides/slide-4.png" alt="Hypha Token Sale slide" class="slide" />
-          </div>
-        </div>
-     </div>-->
-
 
     </main>
 
-    <?php
-      include 'incl/hypha-footer.html';
-
-   ?>
 
 
     <!-- START: LOAD HYPHA TOKEN SALE WIDGET -->
